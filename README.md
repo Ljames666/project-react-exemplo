@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+![Logo](./public/assets/images/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto de um App de classificados
 
-## Available Scripts
+Este projeto tem o intuito de aprimorar os estudos de rotas, componentização, hooks, redux, persist e varios outros frameworks
+em um app react.
 
-In the project directory, you can run:
+## Começando um projeto react
 
-### `npm start`
+<img src="https://cdn.jsdelivr.net/gh/facebook/create-react-app@27b42ac7efa018f2541153ab30d63180f5fa39e0/screencast.svg" width="600" alt="npm começar" _mstalt="181896">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para criar um novo aplicativo, você pode escolher um dos seguintes métodos:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### npx
 
-### `npm test`
+```bash
+npx create-react-app my-app
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### npm
 
-### `npm run build`
+```bash
+npm init react-app my-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn create react-app my-app
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Com Typescript ou outro template
 
-### `npm run eject`
+iniciar um novo aplicativo a partir de um modelo, anexando ao comando de criação.`--template [template-name]`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Exemplo:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npx react-app my-app --template [template-name]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+yarn create react-app my-app --template [template-name]
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### template Typescript
 
-## Learn More
+```bash
+npx create-react-app my-app --template typescript
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yarn create-react-app my-app --template typescript
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Para Rodar
+
+Primeiro certifique que está na pasta do projeto com `cd my-app`
+
+Então execute:
+
+`npm start` neste projeto está sendo usado `npm run dev` ou `yarn dev`
+
+### Instalação
+
+Clone o Repositorio:
+
+```bash
+https://github.com/Ljames666/project-react-exemplo.git
+```
+
+Execute com npm
+
+```bash
+  npm install
+```
+
+ou com yarn
+
+```bash
+ yarn
+```
+
+## Stack utilizada
+
+**Front-end:** React, Redux/Toolkit, Mui/Material, TailwindCSS
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
