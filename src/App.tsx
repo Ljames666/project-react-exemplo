@@ -1,7 +1,16 @@
-import React from 'react';
+import DefaultLayout from './config/layout/default-layout/DefautLayout';
+import RoutesApp from './routes';
 
 function App(): JSX.Element {
-  return <div>hello world!!</div>;
+  const Layout=DefaultLayout
+  return (
+    <>
+    <Layout>
+       <RoutesApp />
+    </Layout>
+     
+    </>
+  );
 }
 
 export default App;
